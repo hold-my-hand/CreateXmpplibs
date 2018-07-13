@@ -1,0 +1,6 @@
+framework module Pods_CreateXmppLib {
+  umbrella header "Pods-CreateXmppLib-umbrella.h"
+
+  export *
+  module * { export * }
+}

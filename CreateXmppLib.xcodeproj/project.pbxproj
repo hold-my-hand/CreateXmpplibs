@@ -1,0 +1,428 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A75389AC2D9F498E408F963C /* libPods-CreateXmppLib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FA164A62C366D15F2BDE83E7 /* libPods-CreateXmppLib.a */; };
+		F04D056620BE64900053DE6C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F04D056520BE64900053DE6C /* AppDelegate.m */; };
+		F04D056920BE64900053DE6C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F04D056820BE64900053DE6C /* ViewController.m */; };
+		F04D056C20BE64900053DE6C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F04D056A20BE64900053DE6C /* Main.storyboard */; };
+		F04D056E20BE64920053DE6C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F04D056D20BE64920053DE6C /* Assets.xcassets */; };
+		F04D057120BE64920053DE6C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F04D056F20BE64920053DE6C /* LaunchScreen.storyboard */; };
+		F04D057420BE64920053DE6C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F04D057320BE64920053DE6C /* main.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		086FCBC4EF558B9333C8EC24 /* Pods-CreateXmppLib.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CreateXmppLib.release.xcconfig"; path = "Pods/Target Support Files/Pods-CreateXmppLib/Pods-CreateXmppLib.release.xcconfig"; sourceTree = "<group>"; };
+		BE7484096319947ABDD3824C /* Pods-CreateXmppLib.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CreateXmppLib.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CreateXmppLib/Pods-CreateXmppLib.debug.xcconfig"; sourceTree = "<group>"; };
+		F04D056120BE64900053DE6C /* CreateXmppLib.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CreateXmppLib.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F04D056420BE64900053DE6C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F04D056520BE64900053DE6C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F04D056720BE64900053DE6C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F04D056820BE64900053DE6C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F04D056B20BE64900053DE6C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F04D056D20BE64920053DE6C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F04D057020BE64920053DE6C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F04D057220BE64920053DE6C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F04D057320BE64920053DE6C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FA164A62C366D15F2BDE83E7 /* libPods-CreateXmppLib.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CreateXmppLib.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F04D055E20BE64900053DE6C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A75389AC2D9F498E408F963C /* libPods-CreateXmppLib.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3A557251ED9C09F54D96705D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BE7484096319947ABDD3824C /* Pods-CreateXmppLib.debug.xcconfig */,
+				086FCBC4EF558B9333C8EC24 /* Pods-CreateXmppLib.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		3D7982022DA19AE4C0B4B576 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FA164A62C366D15F2BDE83E7 /* libPods-CreateXmppLib.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F04D055820BE64900053DE6C = {
+			isa = PBXGroup;
+			children = (
+				F04D056320BE64900053DE6C /* CreateXmppLib */,
+				F04D056220BE64900053DE6C /* Products */,
+				3A557251ED9C09F54D96705D /* Pods */,
+				3D7982022DA19AE4C0B4B576 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F04D056220BE64900053DE6C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F04D056120BE64900053DE6C /* CreateXmppLib.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F04D056320BE64900053DE6C /* CreateXmppLib */ = {
+			isa = PBXGroup;
+			children = (
+				F04D056420BE64900053DE6C /* AppDelegate.h */,
+				F04D056520BE64900053DE6C /* AppDelegate.m */,
+				F04D056720BE64900053DE6C /* ViewController.h */,
+				F04D056820BE64900053DE6C /* ViewController.m */,
+				F04D056A20BE64900053DE6C /* Main.storyboard */,
+				F04D056D20BE64920053DE6C /* Assets.xcassets */,
+				F04D056F20BE64920053DE6C /* LaunchScreen.storyboard */,
+				F04D057220BE64920053DE6C /* Info.plist */,
+				F04D057320BE64920053DE6C /* main.m */,
+			);
+			path = CreateXmppLib;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F04D056020BE64900053DE6C /* CreateXmppLib */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F04D057720BE64920053DE6C /* Build configuration list for PBXNativeTarget "CreateXmppLib" */;
+			buildPhases = (
+				C4465F78E6B5713580BF2BB7 /* [CP] Check Pods Manifest.lock */,
+				F04D055D20BE64900053DE6C /* Sources */,
+				F04D055E20BE64900053DE6C /* Frameworks */,
+				F04D055F20BE64900053DE6C /* Resources */,
+				1E724488FACA6890173CD95D /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CreateXmppLib;
+			productName = CreateXmppLib;
+			productReference = F04D056120BE64900053DE6C /* CreateXmppLib.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F04D055920BE64900053DE6C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = Stalker;
+				TargetAttributes = {
+					F04D056020BE64900053DE6C = {
+						CreatedOnToolsVersion = 9.3.1;
+					};
+				};
+			};
+			buildConfigurationList = F04D055C20BE64900053DE6C /* Build configuration list for PBXProject "CreateXmppLib" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F04D055820BE64900053DE6C;
+			productRefGroup = F04D056220BE64900053DE6C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F04D056020BE64900053DE6C /* CreateXmppLib */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F04D055F20BE64900053DE6C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F04D057120BE64920053DE6C /* LaunchScreen.storyboard in Resources */,
+				F04D056E20BE64920053DE6C /* Assets.xcassets in Resources */,
+				F04D056C20BE64900053DE6C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1E724488FACA6890173CD95D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-CreateXmppLib/Pods-CreateXmppLib-resources.sh",
+				"${PODS_ROOT}/XMPPFramework/Extensions/Roster/CoreDataStorage/XMPPRoster.xcdatamodel",
+				"${PODS_ROOT}/XMPPFramework/Extensions/XEP-0045/CoreDataStorage/XMPPRoom.xcdatamodeld",
+				"${PODS_ROOT}/XMPPFramework/Extensions/XEP-0045/CoreDataStorage/XMPPRoom.xcdatamodeld/XMPPRoom.xcdatamodel",
+				"${PODS_ROOT}/XMPPFramework/Extensions/XEP-0045/HybridStorage/XMPPRoomHybrid.xcdatamodeld",
+				"${PODS_ROOT}/XMPPFramework/Extensions/XEP-0045/HybridStorage/XMPPRoomHybrid.xcdatamodeld/XMPPRoomHybrid.xcdatamodel",
+				"${PODS_ROOT}/XMPPFramework/Extensions/XEP-0054/CoreDataStorage/XMPPvCard.xcdatamodeld",
+				"${PODS_ROOT}/XMPPFramework/Extensions/XEP-0054/CoreDataStorage/XMPPvCard.xcdatamodeld/XMPPvCard.xcdatamodel",
+				"${PODS_ROOT}/XMPPFramework/Extensions/XEP-0115/CoreDataStorage/XMPPCapabilities.xcdatamodel",
+				"${PODS_ROOT}/XMPPFramework/Extensions/XEP-0136/CoreDataStorage/XMPPMessageArchiving.xcdatamodeld",
+				"${PODS_ROOT}/XMPPFramework/Extensions/XEP-0136/CoreDataStorage/XMPPMessageArchiving.xcdatamodeld/XMPPMessageArchiving.xcdatamodel",
+				"${PODS_ROOT}/XMPPFramework/Extensions/XMPPMUCLight/CoreDataStorage/XMPPRoomLight.xcdatamodel",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/XMPPRoster.mom",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/XMPPRoom.momd",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/XMPPRoom.mom",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/XMPPRoomHybrid.momd",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/XMPPRoomHybrid.mom",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/XMPPvCard.momd",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/XMPPvCard.mom",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/XMPPCapabilities.mom",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/XMPPMessageArchiving.momd",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/XMPPMessageArchiving.mom",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/XMPPRoomLight.mom",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CreateXmppLib/Pods-CreateXmppLib-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C4465F78E6B5713580BF2BB7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CreateXmppLib-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F04D055D20BE64900053DE6C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F04D056920BE64900053DE6C /* ViewController.m in Sources */,
+				F04D057420BE64920053DE6C /* main.m in Sources */,
+				F04D056620BE64900053DE6C /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F04D056A20BE64900053DE6C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F04D056B20BE64900053DE6C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F04D056F20BE64920053DE6C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F04D057020BE64920053DE6C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F04D057520BE64920053DE6C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F04D057620BE64920053DE6C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F04D057820BE64920053DE6C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BE7484096319947ABDD3824C /* Pods-CreateXmppLib.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 63YZN9WA66;
+				INFOPLIST_FILE = CreateXmppLib/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Stalker.app.CreateXmppLib;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = "arm64 armv7 armv7s x86_64 i386";
+			};
+			name = Debug;
+		};
+		F04D057920BE64920053DE6C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 086FCBC4EF558B9333C8EC24 /* Pods-CreateXmppLib.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 63YZN9WA66;
+				INFOPLIST_FILE = CreateXmppLib/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Stalker.app.CreateXmppLib;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = "arm64 armv7 armv7s x86_64 i386";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F04D055C20BE64900053DE6C /* Build configuration list for PBXProject "CreateXmppLib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F04D057520BE64920053DE6C /* Debug */,
+				F04D057620BE64920053DE6C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F04D057720BE64920053DE6C /* Build configuration list for PBXNativeTarget "CreateXmppLib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F04D057820BE64920053DE6C /* Debug */,
+				F04D057920BE64920053DE6C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F04D055920BE64900053DE6C /* Project object */;
+}
